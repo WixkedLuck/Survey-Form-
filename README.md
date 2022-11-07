@@ -26,7 +26,7 @@ Clone the repository on GitHub then open Git on your local machine. First find a
 The purpose of this project is for the completion of the Responsive Web Design Certification  
 
 
-![Challange6-WeatherAPI](./public/images/landingpage.PNG)
-![Challange6-Weather](./public/images/weathertrial.PNG)
+
+![FCC-Form](./images/Form.PNG)
 # Deployed Site 
 https://wixkedluck.github.io/Survey-Form-/
