@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <form id="survey-form">
+        <h1 id="title">Codex Survey Form</h1>
+    <p id="description"> Thank you for taking the time to improve this platform</p>
+        <label for="name" id="name-label">Name:</label>
+        <input type="text" id="name" required placeholder="Enter your name"> </br>
+        <label for="email" id="email-label">Email:</label>
+        <input type="email" id="email" required placeholder="Enter your email"> </br>
+        <label for="number" id="number-label">Age:</label>
+        <input type="number" id="number" placeholder="Age" min="1" max="120"></br>
+        
+        <select id="dropdown">
+            <option value="none" selected disabled hidden>Select current role</option>
+            <option value="Student">Student</option>
+            <option value="Student">Full time job</option>
+            <option value="Student">Full Time Learner</option>  
+            <option value="Prefer-not-to-say">Prefer not to say</option>  
+            <option value="Other">Other</option> 
+        </select>
+        <p>Would you recommend using our platform to others?</p>
+        <input type="radio" id="yes" name="pick" value="Yes">
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="pick" value="No">
+        <label for="no">No</label>
+        <p>What would you like to see improved?</p>
+        <input type="checkbox" id="front-end" value="Front-end Projects">
+        <label for="front-end">Front-end Projects</label>
+        <input type="checkbox" id="back-end" value="Back-end">
+        <label for="Back-end">Back-end Projects</label>
+        <p>Additional Comments here: </p>
+        <textarea id="comments"></textarea></br>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+   
+</body>
+</html>
